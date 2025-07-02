@@ -8,9 +8,12 @@ class Toy{
     Toy(){
         val=1;
     }
-    explicit Toy(int num){
+    Toy(int num){
         val=num;
     }
+    // explicit Toy(int num){
+    //     val=num;
+    // }
 
     int getVal(){
         return this->val;
